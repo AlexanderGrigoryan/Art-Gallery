@@ -516,6 +516,51 @@ body {
     }
 }
 
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 120px;
+        margin: 0 auto;
+    }
+
+    .inspired__tab1, .inspired__tab2 {
+        display: none;
+    }
+
+    .inspired {
+        margin-top: 30px;
+    }
+
+    .inspired__desc1 {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .inspired__desc2 {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .inspired__black {
+        max-width: 445px;
+        height: 375px;
+    }
+
+    .day__title {
+        font-size: 55px;
+    }
+
+    .day__text {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .header__subtitle {
+        font-size: 22px;
+    }
+    
+}
+
 @media screen and (min-width: 1440px) {
     .black__square {
         display: block;
@@ -527,11 +572,11 @@ body {
 
     .header__content {
         display: flex;
-        margin-left: -800px;
+        margin-left: -950px;
     }
 
     .header__title {
-        margin-right: 246px;
+        margin-right: 308px;
         font-size: 96px;
         line-height: 88px;
         max-width: 450px;
@@ -582,13 +627,15 @@ body {
     }
 
     .day__title {
-        text-align: center;
         max-width: 350px;
+        font-size: 60px;
+        line-height: 60px;
     }
 
     .day__text {
-        text-align: center;
         max-width: 350px;
+        font-size: 22px;
+        line-height: 32px;
     }
 
     .inspired__tab1, .inspired__tab2 {
@@ -620,6 +667,7 @@ body {
     .footer__text {
         font-size: 18px;
         line-height: 28px;
+        max-width: 432px;
     }
 
     .map__tablet {
@@ -633,6 +681,28 @@ body {
     .location__button {
         left: 156px;
     }
+
+    .footer__logo {
+        max-height: 58px;
+        max-width: 159.57px;
+    }
+
+    /* .header__title-bcg{
+        position: relative;
+    } */
+
+    .header__title {
+        /* background-color: #FFFFFF; */
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(90deg, white 64%, black 40%);
+
+    }
+
+
+
+    
 }
 
 
